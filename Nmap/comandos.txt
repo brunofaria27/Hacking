@@ -1,0 +1,18 @@
+man nc -> ajuda com comandos nc.
+nc -> permite que a gente crie conexões TCP ou DP.
+nc <ip> <porta> -> faz com que você possa enviar dados para determinado site, você pode achar portas funcionando
+                   com esse comando.
+
+nmap -> mostra tudo que podemos utilizar.
+nmap <dominio, ip, etc> -> scan no alvo desejado, portas abertas entre outros. Enumerando serviços do alvo.
+nmap <alvo> -p <port>,<port>... -> passar a porta que você deseja fazer o scan, ver se ela está aberta ou não.
+nmap <alvo> -p <port>,<port>... -sV -> o parametro -sV indentifica a versão desses serviços.
+namp <ip>.<alter aultimo num (0-100) -sn -T<0-5> -> pega os Ips com numeracao final de 0 a 100 e tenta ver com o parametro -sn se o host está ativo.
+O parametro -T<0-5> faz um escaneamento mais rápido sendo o 5, porem menos preciso, sendo o contrario com numeros menores.
+
+Conceitos:
+TCP: O TCP (Transmission Control Protocol - Protocolo de Controle de Transmissão) é um dos protocolos[2], 
+sob os quais assenta o núcleo da Internet nos dias de hoje. A versatilidade e robustez deste protocolo 
+tornou-o adequado para redes globais, já que este verifica se os dados são enviados de forma correta, 
+na sequência apropriada e sem erros, pela rede. 
+Porta 80: Porta padrão que roda o serviçõ HTTP, ams pode ter em outras portas.
