@@ -1,0 +1,27 @@
+1. Análisar a própria página e pegar todos os dados disponíveis.
+2. Análisar código fonte da página.
+
+3. Enumeração DNS. (https://who.is/) (https://registro.br/tecnologia/ferramentas/whois/?search=) -> informações sobre o dominio. 
+Através do registro.br você pode buscar por CNPJ, entre outros. Aumentando a área de ataque, pois mostrará todos outros dominios registrados.
+Comandos:
+- whois bancocn.com
+- whois IP
+- host <link> (Mostrar Ip, etc)
+- ping <link> (Mostrar Ip, etc)
+- dnsenum (Brute forcing de subdominios)
+- dnsrecon <argumment> <dominio>
+
+- dnsrecon --help
+- dnsrecon -d bancocn.com -t brt (-t: definir o tipo de enumeração): Fazer um brute force de diretorios para achar subdominios escondidos
+
+- dnsenum --help | grep brute: fazer um pesquisa por linhas que tenham a palavra Brute
+
+
+Ferramenta wafw00f <site> :
+- Ferramenta que indentifica firewalls
+
+Como encontrar um subdominio:
+https://crt.sh/ -> Busca de transparência de certificado
+
+4. Você pode fazer uma busca pelo google e análisar tudo aquilo que tem relação com o site pesquisado.
+<site>/robots.txt : O que isso faz? Fala para os robôs do google não indexarem esse diretorio achado na busca.

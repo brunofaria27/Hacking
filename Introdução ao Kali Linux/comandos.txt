@@ -1,0 +1,11 @@
+pws -> lista o caminho que você está.
+ls -> listar diretórios disponíveis para acessar de acordo com o que você está.
+touch <arquivo> -> cria um arquivo vazio.
+rm -> remover um arquivo.
+cd -> navegar entre diretórios.
+cat <arquivo> -> lê o conteúdo do arquivo.
+rm -r <pasta> -> apagar a pasta e todos os diretórios dentro dela.
+mv <arquivo> <diretorio> -> comando utilizado para mover artigos.
+cp <arquivo com diretório> . -> copia o arquivo do diretório escrito para o que você está.
+
+sudo -i -> conectar como usuário root.
