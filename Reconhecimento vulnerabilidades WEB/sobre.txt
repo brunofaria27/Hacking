@@ -1,0 +1,13 @@
+Directory listing = listar todos os diretórios ao acessar pela URL.
+site:<dominio> -> Filtra a busca somente por links que são de determinado domínio.
+
+Ferramenta dirb: 
+- Permite fazer Brute Force de diretórios.
+
+dirb: mostra todas as opções.
+dirb <dominio> -v: O parametro -v mostra o status code na tela.
+-a: user agente para requisição
+-c: cookie string
+- EXAMPLE: 
+dirb http://www.bancocn.com <wordlist_opcional> -v -a "Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" -c "cf_clearance=sQ.C79dzkOoWoawgKZbUjK8UiF72xBXW4.E4CvSsZSQ-1647190136-0-150"
+- Você pode colocar uma wordlist nos parametros

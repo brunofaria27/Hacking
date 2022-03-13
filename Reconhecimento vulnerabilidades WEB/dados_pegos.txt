@@ -1,0 +1,34 @@
+Email: contato@bancocn.com
+Email2: emprestimos@bancocn.com
+Tel: +835 66 7070
+
+Name Server: MEGAN.NS.CLOUDFLARE.COM
+Name Server: NOEL.NS.CLOUDFLARE.COM
+
+IP shop.bancocn.com : 172.18.100.7
+
+Diretorios:
+- http://www.bancocn.com/classes/
+- http://www.bancocn.com/assets/
+- http://www.bancocn.com/css/
+
+Login Page:
+- http://www.bancocn.com/admin/login.php
+
+Servidor Web:
+- Apache/2.4.29 (Ubuntu)
+
+Directory Listing:
+- http://www.bancocn.com/assets/
+
+SQL Injection and XSS (Cross Site Scripting)
+
+-------- ANOTATIONS -----------
+CloudFlare serve como um interceptador de requisitions.
+- Possivel erro na URL: http://www.bancocn.com/cat.php?id=<value>
+
+Utilizacao do Wappalyzer:
+- Mostra tudo do site, que conseguir identificar.
+- Operating systems: Ubuntu
+- CDN: Cloudflare
+- Databases: MySQL

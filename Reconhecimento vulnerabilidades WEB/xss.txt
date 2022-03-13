@@ -1,0 +1,5 @@
+- Podemos colocar SQL, HTML, Script entre outros pela URL.
+- Código malicioso no link: Roubar dados do usuário.
+- Código está sendo interpretado pelo navegador.
+
+Example: http://www.bancocn.com/cat.php?id=1<script>alert(1)</script>
